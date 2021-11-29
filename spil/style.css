@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Stick+No+Bills&display=swap');
+
+canvas {
+    border: solid 2px black;
+    outline: none;
+    box-shadow: 0 0 50px black;
+}
+
+#reset {
+    padding: 20px 50px;
+    font-size: 30px;
+    border-radius: 5px;
+    font-family: 'Stick No Bills', sans-serif;
+}
+#reset:hover {
+    background: darkgray;
+}
+
+body {
+    background: gray;
+    font-family: 'Stick No Bills', sans-serif;
+}
+
+.tid {
+    display: block;
+    font-size: 30px;
+}
+
+.overskrift {
+    font-family: 'Stick No Bills', sans-serif;
+    font-size: 4em;
+}

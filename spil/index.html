@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spil</title>
+    <script src="main.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <audio src="sound/background.mp3"></audio>
+    <center>
+        <h1 class="overskrift">Diamonds 'n' Monsters</h1>
+    </center>
+    <center>
+    <canvas width="1000" height="1000"></canvas>
+    <div class="tid"><label id="minutes">00</label>:<label id="seconds">00</label></div>
+    </center>
+    <center>
+    <div>
+        <h1>HP: <progress id="health" value="30" max="30"></progress></h1>
+        <h1>XP: <progress id="point" value="0" max="100"></progress></h1>
+        <input id="reset" type="reset" value="Restart">
+    </div>
+    </center>
+</body>
+</html>
